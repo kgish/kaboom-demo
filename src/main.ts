@@ -1,4 +1,4 @@
-const k = kaboom();
+import k from './kaboom';
 
 // define a scene
 k.scene('main', () => {
