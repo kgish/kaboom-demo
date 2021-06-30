@@ -2,19 +2,41 @@
   "name": "kaboom-demo",
   "version": "0.0.1",
   "description": "Kaboom.js demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kgish/kaboom-demo.git"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build dist",
+    "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kiffin Gish <kiffin.gish@planet.nl> (http://github.com/kgish)",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.29.0",
+    "eslint-plugin-no-loops": "^0.3.0",
     "parcel": "^2.0.0-beta.2",
     "parcel-bundler": "^1.12.5",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "parcel-plugin-static-files-copy": "^2.6.0",
     "typescript": "^4.3.4"
   },
   "dependencies": {
+    "kaboom": "^0.5.1"
+  },
+  "alias": {
+    "kaboom": "./node_modules/kaboom/dist/kaboom.mjs"
+  },
+  "parcelCleanPaths": [
+    "dist"
+  ],
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
   }
 }

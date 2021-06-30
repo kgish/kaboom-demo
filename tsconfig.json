@@ -11,7 +11,10 @@
       "~*": [
         "./*"
       ]
-    }
+    },
+    "types": [
+      "./node_modules/kaboom/dist/kaboom.d.ts"
+    ]
   },
   "include": [
     "src/**/*"
