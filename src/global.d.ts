@@ -1,6 +1,8 @@
+import {KaboomConf, KaboomCtx} from "kaboom";
+
 declare interface Window
 {
-    kaboom: (conf?: any) => any
+    kaboom: (conf?: KaboomConf) => KaboomCtx
 }
 
-declare var kaboom: (conf?: any) => any;
+declare const kaboom: (conf?: KaboomConf) => KaboomCtx;
