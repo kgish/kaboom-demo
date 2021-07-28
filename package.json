@@ -16,6 +16,7 @@
   "author": "Kiffin Gish <kiffin.gish@planet.nl> (http://github.com/kgish)",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
     "eslint": "^7.29.0",

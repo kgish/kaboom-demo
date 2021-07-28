@@ -1,4 +1,4 @@
-import {KaboomConf, KaboomCtx} from "kaboom";
+import {KaboomConf, KaboomCtx} from "~kaboom";
 
 declare interface Window
 {
