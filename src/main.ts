@@ -2,9 +2,14 @@ import k from './kaboom';
 
 import { mainScene } from './scenes';
 
-// define a scene
-k.scene('main', mainScene);
+const {
+    scene,
+    go
+} = k;
 
-// start the game
-k.start('main');
+// Define a scene.
+scene('main', mainScene);
+
+// Start the game!
+go('main');
 

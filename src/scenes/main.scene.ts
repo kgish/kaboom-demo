@@ -1,9 +1,17 @@
 import k from '../kaboom';
 
-export const mainScene = () => {
-    k.add([
-        k.text('DEMO!', 32),
-        k.pos(k.width()/2, k.height()/2),
-        k.origin('center')
+export const mainScene = (): void => {
+    const {
+        add,
+        height,
+        origin,
+        pos,
+        text,
+        width
+    } = k;
+    add([
+        text('DEMO!', 32),
+        pos(width()/2, height()/2),
+        origin('center')
     ]);
 };
