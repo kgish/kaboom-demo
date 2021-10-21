@@ -1,7 +1,6 @@
-import {KaboomConf, KaboomCtx} from "~kaboom";
+import { KaboomConf, KaboomCtx } from "~kaboom";
 
-declare interface Window
-{
+declare interface Window {
     kaboom: (conf?: KaboomConf) => KaboomCtx
 }
 

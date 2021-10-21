@@ -4,7 +4,7 @@ import kaboom from 'kaboom';
 export const k: any = kaboom({
     scale: 1,
     fullscreen: true,
-    clearColor: [0, 0, 0, 1],
+    clearColor: [ 0, 0, 0, 1 ],
     debug: true,
 });
 

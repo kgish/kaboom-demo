@@ -11,7 +11,7 @@ export const mainScene = (): void => {
     } = k;
     add([
         text('DEMO!', 32),
-        pos(width()/2, height()/2),
+        pos(width() / 2, height() / 2),
         origin('center')
     ]);
 };
