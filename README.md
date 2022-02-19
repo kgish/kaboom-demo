@@ -46,3 +46,4 @@ npm run test
 * [Parcel](https://parceljs.org)
 * [TypeScript](https://www.typescriptlang.org)
 * [EsLint](https://eslint.org)
+* [Stylelint](https://stylelint.io)
