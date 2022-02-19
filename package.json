@@ -15,19 +15,16 @@
   },
   "author": "Kiffin Gish <kiffin.gish@planet.nl> (https://github.com/kgish)",
   "license": "MIT",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "@typescript-eslint/parser": "^5.1.0",
-    "eslint": "^8.0.1",
-    "eslint-plugin-no-loops": "^0.3.0",
-    "parcel": "^2.0.0",
-    "parcel-plugin-clean-easy": "^1.0.2",
-    "parcel-plugin-static-files-copy": "^2.6.0",
-    "typescript": "^4.4.4"
-  },
   "dependencies": {
-    "kaboom": "^2000.0.0-beta.24"
+    "kaboom": "^2000.2.8"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "parcel": "^2.3.2"
   },
   "alias": {
     "kaboom": "./node_modules/kaboom/dist/kaboom.mjs"
