@@ -11,13 +11,13 @@ This is a simple demo using the [Kaboom.js](https://kaboomjs.com/) game engine.
 ```bash
 git clone https://github.com/kgish/kaboomjs-demo.git
 cd kaboomjs-demo
-npm install
+yarn
 ```
 
 ## Run
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 Point your favorite browser to `http://localhost:1234` and enjoy!
@@ -25,19 +25,19 @@ Point your favorite browser to `http://localhost:1234` and enjoy!
 ## Build
 
 ```bash
-npm run build
+yarn build
 ```
 
 ## Lint
 
 ```bash
-npm run lint
+yarn lint
 ```
 
 ## Test
 
 ```bash
-npm run test
+yarn test
 ```
 
 ## References
