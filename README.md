@@ -4,6 +4,8 @@ This is a simple demo using the [Kaboom.js](https://kaboomjs.com/) game engine.
 
 "Kaboom is a Javascript game programming library that helps you make games fast and fun."
 
+![](images/screenshot.png)
+
 ## Installation
 
 ```bash
