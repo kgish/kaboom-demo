@@ -1797,10 +1797,10 @@ json5@^2.2.0:
   dependencies:
     minimist "^1.2.5"
 
-kaboom@^2000.2.8:
-  version "2000.2.8"
-  resolved "https://registry.npmjs.org/kaboom/-/kaboom-2000.2.8.tgz"
-  integrity sha512-Uqv/RxLoEmUEeXfCv8aTEfw7kb4FAcq1PuXiRaNCr//iogKrDXCQFNQeG6dJA1fe+B4SswZ34/tp7LjC1b/y/w==
+kaboom@^2000.2.9:
+  version "2000.2.9"
+  resolved "https://registry.yarnpkg.com/kaboom/-/kaboom-2000.2.9.tgz#9637e3debe8daba527cbf27bb7c640fb29eb6106"
+  integrity sha512-LenwxK87NHnjBgfjpu+vQfMCSUEg2FnhBTPsqnYyJhc/iGIL1ZMoQEumtU/nIEPz1rP0M3Xdh4OAmotYRi1F6g==
 
 kind-of@^6.0.2, kind-of@^6.0.3:
   version "6.0.3"
